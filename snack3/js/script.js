@@ -23,10 +23,11 @@ for(let i = 0; i < numeri.length; i++){
 
 
     somma += numeri[i];
-
+        // numeri[i] > confrontoMassimo
     if(confrontoMassimo < numeri[i]){
         confrontoMassimo = numeri[i];
     }
+        // numeri[i] < confrontoMinimo
     if(confrontoMinimo > numeri[i]){
         confrontoMinimo = numeri[i]
     }
