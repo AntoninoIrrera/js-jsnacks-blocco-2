@@ -14,15 +14,21 @@ let numeri = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 let somma = 0;
 
-let confronto = 0;
+let confrontoMassimo = numeri[0];
+
+let confrontoMinimo = numeri[0];
+
 
 for(let i = 0; i < numeri.length; i++){
 
 
     somma += numeri[i];
 
-    if(confronto < numeri[i]){
-        confronto = numeri[i];
+    if(confrontoMassimo < numeri[i]){
+        confrontoMassimo = numeri[i];
+    }
+    if(confrontoMinimo > numeri[i]){
+        confrontoMinimo = numeri[i]
     }
 
 
@@ -32,4 +38,5 @@ const media = somma / numeri.length;
 
 console.log(somma);
 console.log(media);
-console.log(confronto);
+console.log(confrontoMassimo);
+console.log(confrontoMinimo);
