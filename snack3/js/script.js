@@ -6,7 +6,7 @@
 
     Calcola la somma e la media dei primi 10 numeri di un array.
 
-    Calcola la somma, la media e il valore massimo dei primi 10 numeri di un array.
+    Calcola la somma, la media e il valore massimo (e minimo(parte mia)) dei primi 10 numeri di un array.
 */
 
 
